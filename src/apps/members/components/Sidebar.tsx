@@ -253,7 +253,7 @@ export const Sidebar = (props: { className?: string }) => {
                 {isDropdown1Open && (
                   <div className="navbar__dropdown__content">
                     <NavLink to="/members/music/queue">Track Queue</NavLink>
-                    <NavLink to="/members/music/search">Search</NavLink>
+                    <NavLink to="/members/music/search">Search Tracks</NavLink>
                   </div>
                 )}
               </li>

@@ -1,3 +1,5 @@
+import React from 'react'
+import './Home.scss'
 import { Sidebar } from '../components/Sidebar'
 import { Topbar } from '../components/Topbar'
 

@@ -1,0 +1,17 @@
+// Track Search List Container
+.search-track-list {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  &__empty {
+    text-align: center;
+    padding: 40px 20px;
+
+    p {
+      @include font-body('md');
+      color: var(--color-label);
+      margin: 0;
+    }
+  }
+}
